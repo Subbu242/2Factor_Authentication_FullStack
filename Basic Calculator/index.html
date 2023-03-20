@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<style>
+    body {
+        background-image: url('calci.jpg');
+    }
+</style>
+<style>
+    form {
+        background-color: aquamarine;
+        width: 180px;
+        height: 100px;
+    }
+</style>
+<style>
+    button { 
+        background-color: rgb(223, 17, 219);
+        width: 30px;
+    }
+</style>
+
+<body>
+    <center>
+        <p style="font-size: large;" id="hello" class="para huge">
+            <strong> SIMPLE CALCULATOR!</strong>
+        </p>
+        <script src="a.js"></script>
+        <form>
+            <label for="Number 1">Number 1:</label><br>
+            <input type="text" id="Number1" name="Number 1"><br>
+            <label for="Number 2">Number 2:</label><br>
+            <input type="text" id="Number2" name="Number 2">
+        </form>
+
+        <button onclick="sum()">+</button>
+        <button onclick="dif()">-</button>
+        <button onclick="mul()">*</button>
+        <button onclick="divi()">/</button>
+
+        <form class="f">
+            <label for="Ans">RESULT:</label><br>
+            <input type="text" id="Ans" name="Ans">
+        </form>        
+    </center>
+</body>
+
+</html>
