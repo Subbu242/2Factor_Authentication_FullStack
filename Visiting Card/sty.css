@@ -1,0 +1,19 @@
+.d1{
+    background-color: bisque;
+    width: 120px;
+    padding: 80px 20px 70px 30px;
+    margin: 280px 0px 0px 550px; 
+}
+.d2{
+    background-image: url('img2.jpg');
+    width: 230px;
+    background-repeat: no-repeat;
+    padding: 50px 0px 70px 30px;
+    margin: -190px 0px 0px 720px;   
+}
+body{
+    background-image: url('bg2.jpg');
+    opacity: 0.95;
+    background-repeat: no-repeat;
+    background-size: 1550px 720px;
+}
