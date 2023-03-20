@@ -1,0 +1,30 @@
+pre{
+    height: 520px;
+    border: 2px solid black;
+    overflow: scroll;
+    background-color: antiquewhite;
+}
+a{
+    border: 3px solid red;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: solid;
+    font-weight: bolder;
+    background-color: azure;
+}
+a:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+.p1{
+    height: 600px;
+    border: 2px solid black;
+    overflow: scroll;
+    background-color:aqua;
+}
+.p2{
+    height: 550px;
+    border: 2px solid black;
+    overflow: scroll;
+    background-color:aqua;
+}
