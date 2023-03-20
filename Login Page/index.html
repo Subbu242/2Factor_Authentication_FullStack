@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+   
+<style>
+    body {
+        background-color: aquamarine;
+    }
+
+    form {
+        background-color: rgb(153, 127, 255);
+        width: 180px;
+    }
+</style>
+<script>  
+    function validation()  
+    {  
+        var id=document.f1.user.value;  
+        var ps=document.f1.pass.value;  
+        if(id.length=="" && ps.length=="") {  
+            alert("User Name and Password fields are empty");  
+            return false;  
+        }  
+        else  
+        {  
+            if(id.length=="") {  
+                alert("User Name is empty");  
+                return false;  
+            }   
+            if (ps.length=="") {  
+            alert("Password field is empty");  
+            return false;  
+            }  
+        }                             
+    }  
+</script>  
+</head>
+<body>
+    <Center>
+        <h1 style="color: rgb(255, 0, 0);">BASIC LOGIN PAGE</h1>
+        <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">
+            <label>USERNAME:</label><br>
+            <input type="text" name="Username" id="user"><br>
+            <label>PASSWORD:</label><br>
+            <input type="text" name="Password" id="pass">
+            <input type =  "submit" id = "btn" value = "Login" />
+            <p class="n">New? Sign Up</p>
+        </form>
+    </Center>
+</body>
+  
+</html>
